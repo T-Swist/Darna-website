@@ -5,15 +5,121 @@
   box-sizing: border-box;
   list-style: none;
 }
-/* This is the universal selector above, don't delete any style you see here */
 
+/* This is the universal selector above, don't delete any style you see here */
+/* this is the root */
+:root {
+  --textcolor: #222222; 
+  --iconcolor: #ffb600;
+  --textcolor2: #f8f8f8;
+}
 
 /* The style for the header starts here */
 
 
 
 
-/* Allen, you will code the header style in here */
+/* Victoria, you will code the header style in here */
+header{
+  width: 100%;
+}
+.cont{
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--textcolor2);
+  padding: 1% 4%;
+}
+
+.meek{
+  display: flex;
+  gap: 1rem;
+  font-size: 13px;
+}
+
+.call .site-email {
+  color: var(--textcolor);
+}
+
+.call  .fa-solid  {
+  color: var(--iconcolor);
+}
+
+.call  .fa-solid  {
+  color: var(--iconcolor);
+}  .fa-solid  {
+  color: var(--iconcolor);
+}
+
+.icon{
+  display: flex;
+  gap: 2rem;
+}
+.icon i{
+  color: var(--iconcolor);
+}
+.pic{
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  gap: 4rem;
+  height: 80px;
+  align-items: center;
+  
+}
+.logo{
+  padding-right: 620px;
+}
+ 
+.tti{
+  font-size: 20px;
+  padding: 10px;
+  background-color: var(--iconcolor);
+  border: none;
+  font-size: 13px;
+}
+.tti i{
+  color: #ffffff;
+}
+.mel{
+  font-size: 20px;
+  padding: 10px;
+}
+.get{
+  font-size: 20px;
+  padding: 10px;
+}
+.link{
+  display: flex;
+  gap: 1rem;
+  padding-left: 20px;
+}
+.b{
+  color: white;
+  font-size: 13px;
+  font-weight: 800px;
+  padding-right: 12px;
+}
+.ctc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--textcolor);
+  color: var(--textcolor2);
+  padding-right: 90px;
+  height: 50px;
+ 
+  width: 100%;
+}
+.crt{
+  font-size: 30px;
+  padding-left: 50%;
+}
+.mill{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
 
 
 
@@ -26,7 +132,7 @@
 
 
 
-/* Victoria, you will code the footer style in here*/
+/* Allen, you will code the footer style in here*/
 
 
 
